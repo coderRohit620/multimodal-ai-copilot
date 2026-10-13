@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+uploads/
+chroma_db/
+vectorstore/
+logs/
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
