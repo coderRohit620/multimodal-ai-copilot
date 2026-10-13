@@ -21,7 +21,7 @@ def home():
 def health_check():
     return {"status": "healthy"}
 
-app.post("/ingest/pdf")
+@app.post("/ingest/pdf")
 async def ingest_pdf(file: UploadFile = File(...)):
     filename = file.filename or "document.pdf"
 

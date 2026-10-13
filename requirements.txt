@@ -6,3 +6,5 @@ pytest
 httpx
 pymupdf
 python-multipart
+sentence-transformers
+numpy
